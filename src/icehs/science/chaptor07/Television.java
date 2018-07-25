@@ -14,7 +14,7 @@ public class Television {
 		super();
 		this.name = name;
 		this.price = price;
-		this.description = description;
+		this.description = description; 
 	}
 	
 	void printTelevisionInfo() {
