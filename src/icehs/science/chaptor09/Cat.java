@@ -2,7 +2,14 @@ package icehs.science.chaptor09;
 
 public class Cat extends Animal {
 	private String name;
+	
+	
+	public Cat(int age, String kind, String name) {
+		super(age,kind);
+		this.name = name;
+	}
 
+	
 	public String getName() {
 		return name;
 	}

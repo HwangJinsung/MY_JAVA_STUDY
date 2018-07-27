@@ -1,4 +1,4 @@
-package icehs.science.chaptor09;
+package icehs.science.chaptor10;
 
 public class Account {
 
@@ -35,7 +35,6 @@ public class Account {
 	}
 	
 	public void openAccount() {
-		System.out.println("계좌를 개설합니다.");
 		System.out.println("계좌번호 : " + this.number);
 		System.out.println("예금주 : " + this.name);
 		System.out.println("잔액 : " + this.balance + "원");

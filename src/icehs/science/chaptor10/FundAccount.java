@@ -1,7 +1,8 @@
-package icehs.science.chaptor09;
+package icehs.science.chaptor10;
 
 public class FundAccount extends Account {
 	
+	private int principal;
 	private double earningRate;
 	
 	public FundAccount(String number, String name, int balance, double earningRate) {
@@ -21,7 +22,6 @@ public class FundAccount extends Account {
 	@Override
 	public void openAccount() {
 		
-		System.out.println("계좌를 개설합니다.");
 		System.out.println("펀드계좌번호 : " + super.getNumber());
 		System.out.println("예금주 : " + this.getName());
 		System.out.println("잔액 : " + this.getBalance() + "원");
